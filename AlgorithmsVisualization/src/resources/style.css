@@ -1,0 +1,55 @@
+graph {
+    padding: 40px;
+}
+
+node {
+    shape: circle;
+    size: 30px;
+    text-size: 10px;
+    text-alignment: center;
+    text-color: black;
+    text-style:bold;
+    fill-color: grey;
+    text-padding: 5px, 5px;
+    stroke-mode:plain ;
+    stroke-color:black ;
+}
+
+node.visited {
+	fill-color: grey;
+}
+
+node.neighbor {
+    fill-color: red;
+}
+
+node.current {
+    fill-color: blue;
+}
+
+node.start {
+    fill-color: green;
+}
+
+node.goal {
+    fill-color: orange;
+}
+
+edge {
+	size: 3px ;
+	text-alignment: above ;
+    text-size: 10px;
+    arrow-size: 10px ;
+}
+
+edge.start {
+	fill-color: green ;
+}
+
+edge.visited {
+	fill-color: grey ;
+}
+
+edge.current {
+	fill-color: red ;
+}
